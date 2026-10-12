@@ -10,19 +10,21 @@
 </p>
 
 <p align="center">
-  <img src="[https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)" alt="TypeScript" />
-  <img src="[https://img.shields.io/badge/Python_3.11-3776AB?style=flat-square&logo=python&logoColor=white](https://img.shields.io/badge/Python_3.11-3776AB?style=flat-square&logo=python&logoColor=white)" alt="Python" />
-  <img src="[https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB](https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB)" alt="React" />
-  <img src="[https://img.shields.io/badge/WebGL_2.0-990000?style=flat-square&logo=webgl&logoColor=white](https://img.shields.io/badge/WebGL_2.0-990000?style=flat-square&logo=webgl&logoColor=white)" alt="WebGL" />
-  <img src="[https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)" alt="Vite" />
-  <img src="[https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)" alt="Tailwind" />
-  <img src="[https://img.shields.io/badge/Latency-%3C10ms_RTT-10B981?style=flat-square](https://img.shields.io/badge/Latency-%3C10ms_RTT-10B981?style=flat-square)" alt="Latency" />
-  <img src="[https://img.shields.io/badge/License-MIT-blue?style=flat-square](https://img.shields.io/badge/License-MIT-blue?style=flat-square)" alt="License" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python_3.11-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/WebGL_2.0-990000?style=for-the-badge&logo=webgl&logoColor=white" alt="WebGL" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/Latency-%3C10ms_RTT-10B981?style=for-the-badge" alt="Latency" />
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" />
 </p>
 
----
 
-Standard operating room monitors are closed hardware appliances with static interfaces and zero predictive awareness. Hemera is an open intraoperative telemetry workstation designed for real-time surgical care: it streams multi-channel physiological signals at 100 Hz, draws hardware-accelerated waveforms at 60 FPS without garbage-collection stutters, and runs an S4 state-space model to forecast emergence drift minutes before physical symptoms spike. This is just a prototype now not a complete project , currently depeloping , further furure updates will be announced.
+---
+> **Project Status:** Early-stage clinical prototype actively under engineering development. Public telemetry feeds and hardware benchmarks are updated continuously.
+> 
+Standard operating room monitors are closed hardware appliances with static interfaces and zero predictive awareness. Hemera is an open intraoperative telemetry workstation designed for real-time surgical care: it streams multi-channel physiological signals at 100 Hz, draws hardware-accelerated waveforms at 60 FPS without garbage-collection stutters, and runs an S4 state-space model to forecast emergence drift minutes before physical symptoms spike. 
 
 ---
 
@@ -170,5 +172,4 @@ Hemera-Surgical/
 
 Distributed under the MIT License. See [LICENSE](https://www.google.com/search?q=LICENSE) for details.
 
-```
 
