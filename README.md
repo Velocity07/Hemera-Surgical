@@ -1,4 +1,4 @@
-```markdown
+
 <p align="center">
   <img src="docs/assets/banner.png" alt="Hemera Surgical" width="100%" />
 </p>
@@ -39,7 +39,7 @@ Displaying baseline sinus rhythm and steady drug concentrations (Sevoflurane 2.6
 ## How It Works
 
 
-```
+
 
 Bedside Sensors / Replay Driver (100 Hz)
 │
@@ -54,7 +54,7 @@ React + WebGL 2.0 Workstation (Port 5173)
 ├── WebGL Shader Pipeline (60 FPS phosphor persistence)
 └── Web Audio API (IEC 60601-1-8 alarms + SpO2-tracked pulse tones)
 
-```
+
 
 ### 1. Constant-Time S4 Inference ($O(1)$)
 Instead of buffering minutes of waveform history into an attention matrix, Hemera uses a continuous-time State-Space Model discretized through bilinear transforms:
@@ -80,16 +80,16 @@ Synthesizes clinical-grade auditory feedback directly in Web Audio:
 * **Python** 3.10+
 
 ### 1. Clone & Setup Environment
-```bash
+
 git clone [https://github.com/Velocity07/Hemera-Surgical.git](https://github.com/Velocity07/Hemera-Surgical.git)
 cd Hemera-Surgical
 cp .env.example .env
 
-```
+
 
 ### 2. Start the Telemetry Service
 
-```bash
+
 cd services/webrtc_streamer
 python -m venv .venv
 
@@ -101,7 +101,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python -m src.signaling
 
-```
+
 
 *Service will listen on `ws://0.0.0.0:8765`.*
 
@@ -109,20 +109,20 @@ python -m src.signaling
 
 In a second terminal:
 
-```bash
+
 cd apps/copilot_ui
 npm install
 npm run dev
 
-```
+
 
 Open [http://localhost:5173](http://localhost:5173). Click anywhere on the dashboard to unlock browser audio for the pulse oximeter tones.
 
----
+
 
 ## Repository Structure
 
-```
+
 Hemera-Surgical/
 ├── apps/
 │   └── copilot_ui/             # React 18, Vite, TypeScript, TailwindCSS
@@ -138,7 +138,7 @@ Hemera-Surgical/
 ├── docs/assets/                # UI captures and banner art
 └── docker-compose.yml          # Containerized deployment spec
 
-```
+
 
 ---
 
@@ -146,6 +146,5 @@ Hemera-Surgical/
 
 Distributed under the MIT License. See [LICENSE](https://www.google.com/search?q=LICENSE) for details.
 
-```
 
 ```
