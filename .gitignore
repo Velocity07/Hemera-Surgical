@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Python Virtual Environments & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Binary Models 
+services/s4_engine/weights/*.pt
+services/s4_engine/weights/*.onnx
+!services/s4_engine/weights/.gitkeep
+
+# Environment & Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Build outputs
+dist/
+build/
+*.log
+coverage/
+.DS_Store
